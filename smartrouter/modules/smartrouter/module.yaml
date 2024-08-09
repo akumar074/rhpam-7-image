@@ -6,20 +6,20 @@ labels:
 - name: "org.jboss.product"
   value: "ibm-bamoe-smartrouter"
 - name: "org.jboss.product.version"
-  value: "8.0.5"
+  value: "8.0.6"
 - name: "org.jboss.product.ibm-bamoe-smartrouter.version"
-  value: "8.0.5"
+  value: "8.0.6"
 envs:
 - name: "JBOSS_PRODUCT"
   value: "ibm-bamoe-smartrouter"
 - name: "IBM_BAMOE_SMARTROUTER_VERSION"
-  value: "8.0.5"
+  value: "8.0.6"
 - name: "PRODUCT_VERSION"
-  value: "8.0.5"
+  value: "8.0.6"
 - name: "ADD_ONS_DISTRIBUTION_ZIP"
   value: "bamoe_add_ons_distribution.zip"
 - name: "KIE_ROUTER_DISTRIBUTION_JAR"
-  value: "bamoe-8.0.5-smart-router.jar"
+  value: "bamoe-8.0.6-smart-router.jar"
 - name: "LAUNCH_DIR"
   value: "/opt/ibm-bamoe-smartrouter/bin/launch"
 - name: "JBOSS_HOME"
@@ -28,8 +28,8 @@ ports:
 - value: 9000
 artifacts:
 - name: "bamoe_add_ons_distribution.zip"
-  # bamoe-8.0.5-add-ons.zip
-  md5: "6cc8ead4d14aedc832014f5b7a55908c"
+  # bamoe-8.0.6-add-ons.zip
+  md5: "74c90ec6f597ea8a2994335941ba541e"
 run:
   user: 185
   cmd:
