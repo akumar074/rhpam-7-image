@@ -1,4 +1,3 @@
----
 schema_version: 1
 name: "ibm-bamoe-8-businesscentral"
 version: "1.0"
@@ -7,16 +6,16 @@ labels:
 - name: "org.jboss.product"
   value: "ibm-bamoe-businesscentral"
 - name: "org.jboss.product.version"
-  value: "8.0.4"
+  value: "8.0.6"
 - name: "org.jboss.product.ibm-bamoe-businesscentral.version"
-  value: "8.0.4"
+  value: "8.0.6"
 envs:
 - name: "JBOSS_PRODUCT"
   value: "ibm-bamoe-businesscentral"
 - name: "IBM_BAMOE_BUSINESS_CENTRAL_VERSION"
-  value: "8.0.4"
+  value: "8.0.6"
 - name: "PRODUCT_VERSION"
-  value: "8.0.4"
+  value: "8.0.6"
 - name: "BUSINESS_CENTRAL_DISTRIBUTION_ZIP"
   value: "bamoe_business_central_distribution.zip"
 - name: "BUSINESS_CENTRAL_DISTRIBUTION_EAP"
@@ -25,7 +24,7 @@ ports:
 - value: 8001
 artifacts:
 - name: "bamoe_business_central_distribution.zip"
-  # bamoe-8.0.4-business-central-eap7-deployable.zip
+  # bamoe-8.0.6-business-central-eap7-deployable.zip
   md5: "1e48b950ae11dd3fa8c6dbfce1429a5b"
 run:
   user: 185
