@@ -23,7 +23,7 @@ envs:
 artifacts:
 - name: "bamoe_add_ons_distribution.zip"
   # bamoe-8.0.6-add-ons.zip
-  md5: "8d75af19d08db62ff1df56bc83d37307"
+  md5: "f1e6d832ed3d6e7e091379ac3dc6e416"
 run:
   user: 185
   cmd:
